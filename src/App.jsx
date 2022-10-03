@@ -2,6 +2,7 @@ import { useState, useEffect} from "react";
 import { Button } from "./Button/Button";
 import { Characters } from "./Characters/Characters";
 import "./main.scss";
+import { Title } from "./Title/Title";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+    <Title/>
 
 {(page > 1) &&<Button buttonName="Prev" onClick={()=> setPage(page - 1)}/>}
  {(page < 43)&&<Button buttonName="Next" onClick={()=> setPage(page + 1)}/>} 
