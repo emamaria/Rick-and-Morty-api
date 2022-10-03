@@ -1,13 +1,19 @@
 .character-big-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .img-style {
-  border: 5px solid black;
+  border: 5px solid  #2192FF;
   margin: 10px;
 }
 
 .text-style {
   font-size: 25px;
+}
+
+.font{
+  color: #2192FF;
+  font-size: 35px;
 }
